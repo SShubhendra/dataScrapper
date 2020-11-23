@@ -7,6 +7,7 @@ const fethHtml = async url => {
         return data;
     } catch {
         console.error(`ERROR: An error occurred while trying to fetch the URL: ${url}`);
+        throw error("error")
     }
 };
 
