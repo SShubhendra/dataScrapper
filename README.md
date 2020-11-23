@@ -8,7 +8,7 @@ npm start
 
 //testing :  npm test
 
-Use Following urls as input url:
+Use Following urls as input url:  use Amagon Product urls for test
  
  POST, application/json  , http://localhost:3000/scrap
 body : {
